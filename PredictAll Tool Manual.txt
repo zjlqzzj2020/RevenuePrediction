@@ -1,0 +1,54 @@
+How to run PredictAll.py and get predictions
+*********************************************************************************************************************
+STEPS TO RUN PREDICTION: 
+
+Step 1: Open Anaconda Prompt, copy and paste 'conda', click 'Enter'
+
+Step 2:Copy and paste "cd C:\zzz\xxx\yyy\ModelPrediction" (copy your folder path), then click 'Enter' 
+(e.g. my folder path is C:\Users\izhang\Desktop\ModelPrediction, so I paste "cd C:\Users\izhang\Desktop\ModelPrediction")
+
+Step 3:Copy and paste "python "PredictAll.py"", then click "Enter".(Script starts running)
+
+***************************
+
+
+
+
+
+
+GET PREDICTION RESULT:
+
+When you see "(base) C:\zzz\xxx\yyy\Desktop\ModelPrediction" showing in the command window, the script has run completely.
+Open "Logical Ports Prediction.xlsx", you’ll see the predictions from 6/2022 in a new tab named "06-22", 
+
+If the last date of Port Quantities is in 7/2022, the tab would be "07-22"
+
+***************************
+
+
+
+
+PREPARATION: 
+
+1.Write an EUC ticket and request to install Anaconda Environment 
+(ask Raymond to check if you have installed all Python libraries)
+
+2.Make sure the Logical Ports Prediction.xlsx is closed while running the Python script
+
+***************************
+
+
+
+
+
+
+What you will see in the command window:
+
+(base) C:\zzz\xxx>conda
+
+(base) C:\Users\xxx>cd C:\zzz\xxx\yyy\ModelPrediction
+
+(base) C:\Users\izhang\Desktop\ModelPrediction>python "PredictAll.py"
+***************************
+
+
